@@ -293,8 +293,7 @@ knn$bestTune
 ggplot(knn, highlight = TRUE)
 ```
 
-![](breast_cancer_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
-
+![validacion_knn](https://raw.githubusercontent.com/AdrianRico98/BREAST-CANCER-ML-R/master/imagenes/unnamed-chunk-3-1.png)<!-- -->
 Vemos que el k que maximiza la precisión en base a la validación cruzada
 es 13. Podemos generar las predicciones y guardarlas en un vector para
 evaluarlas en la parte 3.

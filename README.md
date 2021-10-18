@@ -319,7 +319,7 @@ set.seed(1998, sample.kind = "Rounding")
 #entrenamos el algoritmo
 rf <- train(train_x,train_y,method = "rf",
              tuneGrid = data.frame(mtry = c(3,5,7,9,11,13)))
-#vemos el k que maximiza la precisión general en la validación cruzada.
+#vemos el mtry que maximiza la precisión general en la validación cruzada.
 rf$bestTune
 ```
 
